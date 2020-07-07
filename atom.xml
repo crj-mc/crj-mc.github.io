@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://crj-mc.github.io/"/>
-  <updated>2020-07-07T06:35:39.455Z</updated>
+  <updated>2020-07-07T10:04:57.161Z</updated>
   <id>http://crj-mc.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://crj-mc.github.io/2020/07/07/css-framework/"/>
     <id>http://crj-mc.github.io/2020/07/07/css-framework/</id>
     <published>2020-07-07T04:11:56.696Z</published>
-    <updated>2020-07-07T06:35:39.455Z</updated>
+    <updated>2020-07-07T10:04:57.161Z</updated>
     
     <summary type="html">
     
@@ -36,6 +36,8 @@
     </summary>
     
     
+    
+      <category term="css" scheme="http://crj-mc.github.io/tags/css/"/>
     
   </entry>
   
