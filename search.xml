@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>conditional-expectation</title>
+      <link href="/2020/07/09/conditional-expectation/"/>
+      <url>/2020/07/09/conditional-expectation/</url>
+      
+        <content type="html"><![CDATA[<h1 id="条件期望"><a href="#条件期望" class="headerlink" title="条件期望"></a>条件期望</h1><h2 id="古典的条件概率下的条件期望模型"><a href="#古典的条件概率下的条件期望模型" class="headerlink" title="古典的条件概率下的条件期望模型"></a>古典的条件概率下的条件期望模型</h2><h3 id="条件概率与条件期望"><a href="#条件概率与条件期望" class="headerlink" title="条件概率与条件期望"></a>条件概率与条件期望</h3><p>首先是熟悉的条件概率公式<br>$$<br>P_B(A) = P(A|B)=\frac{P(AB)}{P(B)}, \forall A \in \mathscr{F}<br>$$<br>我们在概率论基础中，按照概率来定义期望，很自然，条件概率也是概率，所以，用条件概率来定义条件期望也就是非常自然的事情了。<br>$$<br>E_B(X)=\int X(\omega)P_B(d\omega) = \frac{1}{P(B)}\int_{B}X(\omega)P(d\omega)<br>$$<br><strong>这样定义的条件期望有什么问题呢？</strong>我们希望条件期望作为条件的函数，也就是事件的函数，当事件$B$是单点的时候，因为$P(B)=0$，所以无法描述条件期望，这样就失去了条件期望作为函数的意义。</p><h2 id="测度论体系下的条件期望"><a href="#测度论体系下的条件期望" class="headerlink" title="测度论体系下的条件期望"></a>测度论体系下的条件期望</h2><h3 id="等积分引理"><a href="#等积分引理" class="headerlink" title="等积分引理"></a>等积分引理</h3><p>等积分的条件是从古典<strong>条件期望的期望等于期望</strong>的性质中保留过来的。</p><p>对于(准)可积随机变量$X$，$\mathscr{F}_0 $为 $\mathscr{F}$ 的子 $\sigma$ 域，<br>(在a.s.意义下)存在唯一准可积$\mathscr{F}_0$可测随机变量$Y$，满足<br>$\int_B Y dP = \int_B X dP, \forall B \in \mathscr{F}_0$</p><h3 id="条件期望和条件概率"><a href="#条件期望和条件概率" class="headerlink" title="条件期望和条件概率"></a>条件期望和条件概率</h3><p>条件期望的两个条件，对于(准)可积随机变量$X$，$\mathscr{F}_0 $为$ \mathscr{F}$ 的子$ \sigma$ 域。</p><ol><li>$Y 是 \mathscr{F}_0 可测的 \                            $</li><li>$\int_B Y dP = \int_B X dP, \forall B \in \mathscr{F}_0  $</li></ol><p>看来，<strong>条件期望的期望等于期望</strong>是故意而为的。但为什么对这一点要强求呢？现在$Y$是$X$关于$\mathscr{F}_0$的条件期望，特别地，当$\mathscr{F}_0 = \sigma(V)$ 时，$Y=E(X|V)$，这就是对条件期望的重新诠释，我发现，这个诠释简单地惊人，就对一个暂时还没想明白的一个条件进行扩展就得到了一个新的条件期望。<br>$$<br>对于\mathscr{F}_0 \subset \mathscr{F}，A\in \mathscr{F} \<br>那么，P(A|\mathscr{F}_0) = E(I_A|\mathscr{F}_0)<br>$$<br>这么说，条件概率是条件期望的特殊情况，下面对条件期望的形态进行汇总</p><ol><li>条件概率是条件期望  $ P(A|\mathscr{F}_0) = E(I_A|\mathscr{F}_0)$</li><li>期望是条件期望      $ EX = E(X|\mathscr{F}_0)                  $</li><li>常数是条件期望      $ c = E(X|{\emptyset, \Omega})              $</li><li>随机变量是条件期望  $ X = E(X|\mathscr{F}_0)                   $</li><li>可测函数是条件期望  $ g(x) = E(Y|X=x)                          $</li></ol><p>对上面的总结，可以发现，很多教程甚至喜欢通过条件期望来构建整个概率体系，不是没有原因的。这种数学概念能够延申出各种各样的其他概念，而更重要的是反过来，<strong>条件期望是期望</strong>。所以，对以期望的各种性质原封不动地保留到了条件期望身上。</p><p>而这样的故事的开始仅仅是等积分引理的证明。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> math </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>css-framework</title>
       <link href="/2020/07/07/css-framework/"/>
       <url>/2020/07/07/css-framework/</url>

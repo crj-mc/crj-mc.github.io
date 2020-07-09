@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://crj-mc.github.io/"/>
-  <updated>2020-07-07T10:04:57.161Z</updated>
+  <updated>2020-07-09T17:18:07.949Z</updated>
   <id>http://crj-mc.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>conditional-expectation</title>
+    <link href="http://crj-mc.github.io/2020/07/09/conditional-expectation/"/>
+    <id>http://crj-mc.github.io/2020/07/09/conditional-expectation/</id>
+    <published>2020-07-09T15:11:11.000Z</published>
+    <updated>2020-07-09T17:18:07.949Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;条件期望&quot;&gt;&lt;a href=&quot;#条件期望&quot; class=&quot;headerlink&quot; title=&quot;条件期望&quot;&gt;&lt;/a&gt;条件期望&lt;/h1&gt;&lt;h2 id=&quot;古典的条件概率下的条件期望模型&quot;&gt;&lt;a href=&quot;#古典的条件概率下的条件期望模型&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="math" scheme="http://crj-mc.github.io/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
     <title>css-framework</title>
     <link href="http://crj-mc.github.io/2020/07/07/css-framework/"/>
     <id>http://crj-mc.github.io/2020/07/07/css-framework/</id>
     <published>2020-07-07T04:11:56.696Z</published>
-    <updated>2020-07-07T10:04:57.161Z</updated>
+    <updated>2020-07-08T14:44:28.589Z</updated>
     
     <summary type="html">
     
